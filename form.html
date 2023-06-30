@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form-style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Home</a>
+            <a href="#" class="nav_link">Product</a>
+            <a href="#" class="nav_link">Services</a>
+            <a href="#" class="nav_link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Dropdown-->
+
+    <div class="container">
+      <div class="col-md-3">
+        <h2 class="question">Please select your name among the following</h2>
+        <br /><br /><br /><br />
+
+        <div class="col">
+          <label for="" class="tag">Name</label>
+
+          <select
+            name="names"
+            id="main_menu"
+            onchange="selectOption()"
+            class="custom-select"
+          >
+            <option value="">-- Choose your name --</option>
+            <option value="Julian">Julian</option>
+            <option value="Lily">Lily</option>
+            <option value="Rose">Rose</option>
+          </select>
+
+          <br />
+          <label for="">Feature</label>
+          <select name="inputName" id="sub_menu" class="custom-select"></select>
+        </div>
+      </div>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
