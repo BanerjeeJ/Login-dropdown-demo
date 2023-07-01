@@ -1,4 +1,4 @@
-# Login-with-google-authentication
+# Login-dropdown-demo
 This website is purely coded in javascript and css . It provides the users with an aesthetic and beautiful experience with integrated and easy login and responsive design
 
 ![Screenshot (644)](https://github.com/BanerjeeJ/Login-with-google-authentication/assets/100158687/ec2e73bb-d787-4d5b-9298-ba81e5fd0d5b)
